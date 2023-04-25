@@ -1,0 +1,55 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: "Oswald", sans-serif;
+	background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+ 
+}
+
+h1 {
+	font-size: 3em;
+	color: #033CB5;
+	height:80px;
+	background-color: rgba(253, 253, 253, 0.8);
+	padding-top: 10px;
+	box-shadow: 4px #AA1212;
+	border-radius: 300px;
+	border: solid;
+
+}
+hr {
+    margin: 20px auto;
+    color: #033CB5;
+    border: 3px solid #033CB5;
+    max-width: 100px;
+    opacity: 1;  
+}
+
+.buffer {
+	height: 2rem;
+}
+
+.btn {
+	font-size: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary:hover{
+	background-color: #033CB5;
+	border-color: #033CB5;
+	border-width: 4px;
+
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+	color: black;
+	background-color: rgba(255, 255, 255, .7) ;
+	border-color: #033CB5;
+}
